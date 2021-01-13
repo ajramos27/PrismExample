@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Hauler.Views.MainPage"
+             Title="{Binding Title}">
+
+    <NavigationPage.TitleView>
+        <Image Source="icon.png" HorizontalOptions="Center"/>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <StackLayout
+                Margin="20,20"
+                Spacing="0"
+                VerticalOptions="FillAndExpand">
+
+            <Grid RowSpacing="24" VerticalOptions="CenterAndExpand">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Label
+                        Grid.Row="0"
+                        FontSize="20"
+                        HorizontalOptions="Center"
+                        Text="Login"
+                        VerticalOptions="Center" />
+
+                <!--  Entry to get new password from user  -->
+                <Entry Grid.Row="1" 
+                    Placeholder="Email"/>
+
+                <Entry Grid.Row="2" 
+                    Placeholder="Password"/>
+
+                <!--  Submit button  -->
+                <Button
+                        Grid.Row="3"
+                        Command="{Binding SignInCommand}"
+                        BackgroundColor="#2790c6"
+                        CornerRadius="20"
+                        Text="LOG IN" />
+
+                <Label
+                        x:Name="ForgotPasswordLabel"
+                        Grid.Row="4"
+                        Margin="0,16"
+                        FontSize="12"
+                        HorizontalOptions="Start"
+                        Text="FORGOT PASSWORD?"
+                        TextColor="#2790c6">
+                    <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ResetCommand}"/>
+                         </Label.GestureRecognizers>
+                </Label>
+                <Label
+                        x:Name="RegisterLabel"
+                        Grid.Row="5"
+                        Margin="0,0"
+                        FontSize="12"
+                        HorizontalOptions="Start"
+                        Text="Register"
+                        TextColor="#2790c6">
+                    <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ForgotPasswordCommand}"/>
+                    </Label.GestureRecognizers>
+                </Label>
+
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+
+
+
+                    
+</ContentPage>

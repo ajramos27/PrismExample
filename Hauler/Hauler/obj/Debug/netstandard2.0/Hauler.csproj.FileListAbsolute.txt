@@ -1,0 +1,14 @@
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\Hauler.csprojAssemblyReference.cache
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\Views\ResetPassword.xaml.g.cs
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\Hauler.AssemblyInfoInputs.cache
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\Hauler.AssemblyInfo.cs
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\Hauler.csproj.CoreCompileInputs.cache
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\Hauler.dll
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\Hauler.pdb
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\bin\Debug\netstandard2.0\Hauler.deps.json
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\bin\Debug\netstandard2.0\Hauler.dll
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\bin\Debug\netstandard2.0\Hauler.pdb
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\XamlC.stamp
