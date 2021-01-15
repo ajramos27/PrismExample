@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Hauler.Views.MenuPage.xaml", "Views/MenuPage.xaml", typeof(global::Hauler.Views.MenuPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PrismExample.Views.MenuPage.xaml", "Views/MenuPage.xaml", typeof(global::Hauler.Views.MenuPage))]
 
 namespace Hauler.Views {
     

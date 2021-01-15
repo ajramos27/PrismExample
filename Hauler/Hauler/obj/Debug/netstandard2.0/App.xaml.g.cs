@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Hauler.App.xaml", "App.xaml", typeof(global::Hauler.App))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PrismExample.App.xaml", "App.xaml", typeof(global::Hauler.App))]
 
 namespace Hauler {
     

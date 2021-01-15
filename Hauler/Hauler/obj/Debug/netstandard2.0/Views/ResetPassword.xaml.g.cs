@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Hauler.Views.ResetPassword.xaml", "Views/ResetPassword.xaml", typeof(global::Hauler.Views.ResetPassword))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PrismExample.Views.ResetPassword.xaml", "Views/ResetPassword.xaml", typeof(global::Hauler.Views.ResetPassword))]
 
 namespace Hauler.Views {
     

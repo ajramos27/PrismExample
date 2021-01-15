@@ -1,0 +1,14 @@
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\bin\Debug\netstandard2.0\PrismExample.deps.json
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\bin\Debug\netstandard2.0\PrismExample.dll
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\bin\Debug\netstandard2.0\PrismExample.pdb
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\Views\ResetPassword.xaml.g.cs
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\PrismExample.AssemblyInfoInputs.cache
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\PrismExample.AssemblyInfo.cs
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\PrismExample.csproj.CoreCompileInputs.cache
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\PrismExample.dll
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\PrismExample.pdb
+C:\Users\Aaron Jesus\source\repos\Hauler\Hauler\Hauler\obj\Debug\netstandard2.0\PrismExample.csprojAssemblyReference.cache

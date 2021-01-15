@@ -2,11 +2,19 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Hauler.Views.MainPage"
+             xmlns:behaviors="clr-namespace:PrismExample.Behaviors;assembly=PrismExample"
+             xmlns:converters="clr-namespace:PrismExample.Converters;assembly=PrismExample"
              Title="{Binding Title}">
 
     <NavigationPage.TitleView>
         <Image Source="icon.png" HorizontalOptions="Center"/>
     </NavigationPage.TitleView>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:FirstValidationErrorConverter x:Key="FirstValidationErrorConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
     <ContentPage.Content>
         <StackLayout
@@ -14,7 +22,7 @@
                 Spacing="0"
                 VerticalOptions="FillAndExpand">
 
-            <Grid RowSpacing="24" VerticalOptions="CenterAndExpand">
+            <Grid RowSpacing="24">
 
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
@@ -29,12 +37,27 @@
                         Grid.Row="0"
                         FontSize="20"
                         HorizontalOptions="Center"
-                        Text="Login"
+                        Text=""
                         VerticalOptions="Center" />
 
                 <!--  Entry to get new password from user  -->
-                <Entry Grid.Row="1" 
-                    Placeholder="Email"/>
+                <StackLayout Grid.Row="1">
+                    
+                    <Entry Text="{Binding Email.Value, Mode=TwoWay}"  
+                            Placeholder="Email" Style="{StaticResource EntryStyle}">
+                        <Entry.Triggers>
+                            <DataTrigger   
+                                    TargetType="Entry"  
+                                    Binding="{Binding Email.IsValid}"  
+                                    Value="False">
+                                <Setter Property="behaviors:LineColorBehavior.LineColor"   
+                                         Value="Red" />
+                            </DataTrigger>
+                        </Entry.Triggers>
+                    </Entry>
+                    <Label Text="{Binding Email.Errors, Converter={StaticResource FirstValidationErrorConverter}}"  
+                            Style="{StaticResource ValidationErrorLabelStyle}" />
+                </StackLayout>
 
                 <Entry Grid.Row="2" 
                     Placeholder="Password"/>

@@ -1,13 +1,14 @@
 ﻿using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
+using PrismExample.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Hauler.ViewModels
 {
-    public class ViewModelBase : BindableBase, IInitialize, INavigationAware, IDestructible
+    public class ViewModelBase : ExtendedBindableObject, IInitialize, INavigationAware, IDestructible
     {
         protected INavigationService NavigationService { get; private set; }
 
@@ -42,5 +43,7 @@ namespace Hauler.ViewModels
         {
 
         }
+
+        
     }
 }
