@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "POvwAW4oNIJ7wLyoIXtdaSNj8opycfskIeJ7slS1xXtQ3yBfRWE/S5J2NNACOK/hqInlp5CbANTNxfNHZMwcrA==",
+  "dgSpecHash": "R3J4l4fTCoU0AZxUQZsIFTYLCJ8svsmkYUA+T2DvhPF/e/z3y0H/9hy+Y5Rirhj5MxgQ/AxG1YxbeD2Z3OUKlA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aaron Jesus\\source\\repos\\Hauler\\Hauler\\Hauler.iOS\\PrismExample.iOS.csproj",
   "expectedPackageFiles": [
@@ -8,10 +8,11 @@
     "C:\\Users\\Aaron Jesus\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512",
     "C:\\Users\\Aaron Jesus\\.nuget\\packages\\prism.dryioc.forms\\8.0.0.1909\\prism.dryioc.forms.8.0.0.1909.nupkg.sha512",
     "C:\\Users\\Aaron Jesus\\.nuget\\packages\\prism.forms\\8.0.0.1909\\prism.forms.8.0.0.1909.nupkg.sha512",
+    "C:\\Users\\Aaron Jesus\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Aaron Jesus\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
-    "C:\\Users\\Aaron Jesus\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\Aaron Jesus\\.nuget\\packages\\xamarin.essentials.interfaces\\1.5.3.2\\xamarin.essentials.interfaces.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\Aaron Jesus\\.nuget\\packages\\xamarin.forms\\4.8.0.1364\\xamarin.forms.4.8.0.1364.nupkg.sha512"
+    "C:\\Users\\Aaron Jesus\\.nuget\\packages\\xamarin.essentials\\1.6.0\\xamarin.essentials.1.6.0.nupkg.sha512",
+    "C:\\Users\\Aaron Jesus\\.nuget\\packages\\xamarin.essentials.interfaces\\1.6.0\\xamarin.essentials.interfaces.1.6.0.nupkg.sha512",
+    "C:\\Users\\Aaron Jesus\\.nuget\\packages\\xamarin.forms\\5.0.0.1874\\xamarin.forms.5.0.0.1874.nupkg.sha512"
   ],
   "logs": []
 }

@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PrismExample.Views.PrismMasterDetailPage1.xaml", "Views/PrismMasterDetailPage1.xaml", typeof(global::PrismExample.Views.PrismMasterDetailPage1))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("PrismExample.Views.MainMenu.xaml", "Views/MainMenu.xaml", typeof(global::PrismExample.Views.MainMenu))]
 
 namespace PrismExample.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\PrismMasterDetailPage1.xaml")]
-    public partial class PrismMasterDetailPage1 : global::Xamarin.Forms.MasterDetailPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MainMenu.xaml")]
+    public partial class MainMenu : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(PrismMasterDetailPage1));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainMenu));
         }
     }
 }

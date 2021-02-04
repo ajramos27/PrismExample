@@ -5,6 +5,7 @@ using PrismExample.Validation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 
 namespace Hauler.ViewModels
@@ -43,9 +44,26 @@ namespace Hauler.ViewModels
             Title = "Main Page"; 
         }
 
-        private void SignIn()
+        private async void SignIn()
         {
-            Validate();
+            using (HttpClient client = new HttpClient())
+            {
+                try
+                {
+                    var response = await client.GetAsync("https://api.trackseries.tv/v1/Stats/TopSeries");
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string content = await response.Content.ReadAsStringAsync();
+                        //Console.WriteLine(response.Content.ReadAsStringAsync());
+                        Console.WriteLine("Ok");
+                    }
+                }
+                catch (HttpRequestException ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+            //Validate();
             //await NavigationService.NavigateAsync("MenuPage");
         }
 
