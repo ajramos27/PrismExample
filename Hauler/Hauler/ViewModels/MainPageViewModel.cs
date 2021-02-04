@@ -46,6 +46,7 @@ namespace Hauler.ViewModels
         private void SignIn()
         {
             Validate();
+            Console.WriteLine("login");
             //await NavigationService.NavigateAsync("MenuPage");
         }
 
